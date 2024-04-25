@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Add key-word "abstract" on the 1st line.
+  - text: ' Add semicolon on the 17th line.'
+  - text: ' Everything will work fine.'
+  - text: Add semicolon on the 15th line.
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2552#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 28 Mar 2024 02:40:09 UTC"
+record: -1
+selected_options:
+  - 3
+local_check: false
